@@ -2,7 +2,7 @@
 
 session_start();
 
-echo "ชื่อผู้ใช้: " . $_SESSION['username'];
+echo "ชื่อผู้ใช้: " . $_SESSION['username'] . "<br>";
 echo "สิทธิ์: " . $_SESSION['role'];
 
 ?>
